@@ -1,0 +1,118 @@
+/* =============================================== */
+/* Reset default styles to ensure consistent layout */
+/* =============================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and borders don't affect layout */
+}
+
+/* =============================================== */
+/* Body and background styling - general settings */
+/* =============================================== */
+body {
+  font-family: "Arial", sans-serif; /* Clean and modern font */
+  line-height: 1.6; /* Increases line spacing for better readability */
+  background-color: #f9f9f9; /* Light gray background for a soft look */
+  color: #333; /* Dark text for contrast */
+}
+
+/* =============================================== */
+/* HEADER SECTION - Main title and background color */
+/* =============================================== */
+header {
+  background-color: #ff6f61; /* Bright coral background for header */
+  color: #fff; /* White text color for contrast */
+  padding: 20px 0; /* Padding around the title */
+  text-align: center; /* Centers the title */
+}
+
+header h1 {
+  font-size: 2.5rem; /* Large font size for the title */
+  color: #fff; /* White title text */
+}
+
+/* =============================================== */
+/* Content area - main section for roadmap */
+/* =============================================== */
+.content {
+  padding: 20px; /* Adds padding around the content */
+  margin: 20px; /* Adds margin around the content */
+  background-color: #ffffff; /* White background for readability */
+  border-radius: 8px; /* Rounded corners for a clean look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* =============================================== */
+/* Article Headings styling with color */
+/* =============================================== */
+article h2 {
+  font-size: 1.8rem; /* Larger font size for headings */
+  margin-top: 20px; /* Space above each section heading */
+  color: #ff8c42; /* Bright orange color for headings */
+}
+
+/* =============================================== */
+/* Styling for lists inside the article with color */
+article ul {
+  list-style-type: none; /* Removes default bullet points */
+  margin: 10px 0; /* Adds space between list items */
+  padding-left: 20px; /* Adds left padding for better indentation */
+}
+
+article li {
+  margin: 8px 0; /* Adds space between list items for readability */
+  font-size: 1.1rem; /* Slightly larger font for list items */
+}
+
+/* Add different colors to each list item */
+article li:nth-child(odd) {
+  color: #4a90e2; /* Sky blue for odd items */
+}
+
+article li:nth-child(even) {
+  color: #f5a623; /* Warm yellow for even items */
+}
+
+/* Add emphasis to strong text */
+article li strong {
+  color: #e76f51; /* Coral color for strong emphasis */
+}
+
+/* =============================================== */
+/* FOOTER SECTION - Simple footer with copyright */
+/* =============================================== */
+footer {
+  background-color: #2d3436; /* Dark gray background for footer */
+  color: #fff; /* White text for footer */
+  text-align: center; /* Centers the footer text */
+  padding: 20px 0; /* Adds padding around footer text */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1rem; /* Sets readable text size */
+}
+
+/* New footer styling for "Designed and Developed by Ahsan" */
+footer p:last-child {
+  font-size: 1.2rem; /* Slightly larger font for personal branding */
+  font-weight: bold; /* Bold for emphasis */
+  color: #ff6f61; /* Matches the header color for consistency */
+  margin-top: 10px; /* Adds some space between the lines */
+}
+
+/* =============================================== */
+/* Link Styling - make links colorful and underline on hover */
+/* =============================================== */
+a {
+  color: #4a90e2; /* Sky blue for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #f5a623; /* Change color to warm yellow on hover */
+}
